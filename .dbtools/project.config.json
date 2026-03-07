@@ -6,7 +6,7 @@
     "version" : "25.4.2.0"
   },
   "schemas" : [ "TICKETNEXUS" ],
-  "lastReleaseVersion" : "",
+  "lastReleaseVersion" : "0.1",
   "export" : {
     "format" : {
       "enable" : true

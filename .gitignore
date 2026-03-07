@@ -6,3 +6,6 @@ var/*
 *.zip
 *.log
 **/.DS_Store
+
+# AI init files
+GEMINI.md
