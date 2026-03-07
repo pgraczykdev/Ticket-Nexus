@@ -4,4 +4,40 @@
                    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
                       http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
 <include file="_custom/create_logger_user.sql" relativeToChangelogFile="true"/>
+<include file="logger/sequences/logger_apx_items_seq.sql" relativeToChangelogFile="true"/>
+<include file="logger/sequences/logger_logs_seq.sql" relativeToChangelogFile="true"/>
+<include file="logger/tables/logger_logs.sql" relativeToChangelogFile="true"/>
+<include file="logger/tables/logger_logs_apex_items.sql" relativeToChangelogFile="true"/>
+<include file="logger/tables/logger_prefs.sql" relativeToChangelogFile="true"/>
+<include file="logger/tables/logger_prefs_by_client_id.sql" relativeToChangelogFile="true"/>
+<include file="logger/package_specs/logger.sql" relativeToChangelogFile="true"/>
+<include file="logger/triggers/biu_logger_apex_items.sql" relativeToChangelogFile="true"/>
+<include file="logger/views/logger_logs_5_min.sql" relativeToChangelogFile="true"/>
+<include file="logger/views/logger_logs_60_min.sql" relativeToChangelogFile="true"/>
+<include file="ticketnexus/synonyms/logger_logs.sql" relativeToChangelogFile="true"/>
+<include file="ticketnexus/synonyms/logger_logs_apex_items.sql" relativeToChangelogFile="true"/>
+<include file="ticketnexus/synonyms/logger_prefs.sql" relativeToChangelogFile="true"/>
+<include file="ticketnexus/synonyms/logger_prefs_by_client_id.sql" relativeToChangelogFile="true"/>
+<include file="logger/package_bodies/logger.sql" relativeToChangelogFile="true"/>
+<include file="logger/procedures/logger_configure.sql" relativeToChangelogFile="true"/>
+<include file="logger/triggers/biu_logger_prefs.sql" relativeToChangelogFile="true"/>
+<include file="logger/views/logger_logs_terse.sql" relativeToChangelogFile="true"/>
+<include file="ticketnexus/synonyms/logger.sql" relativeToChangelogFile="true"/>
+<include file="ticketnexus/synonyms/logger_logs_5_min.sql" relativeToChangelogFile="true"/>
+<include file="ticketnexus/synonyms/logger_logs_60_min.sql" relativeToChangelogFile="true"/>
+<include file="ticketnexus/synonyms/logger_logs_terse.sql" relativeToChangelogFile="true"/>
+<include file="logger/comments/logger_prefs_by_client_id.sql" relativeToChangelogFile="true"/>
+<include file="logger/indexes/logger_apex_items_idx1.sql" relativeToChangelogFile="true"/>
+<include file="logger/indexes/logger_logs_idx1.sql" relativeToChangelogFile="true"/>
+<include file="logger/jobs/logger_purge_job.sql" relativeToChangelogFile="true"/>
+<include file="logger/jobs/logger_unset_prefs_by_client.sql" relativeToChangelogFile="true"/>
+<include file="logger/ref_constraints/logger_logs_apx_itms_fk.sql" relativeToChangelogFile="true"/>
+<include file="logger/object_grants/object_grants_as_grantor.logger.package_spec.logger.sql" relativeToChangelogFile="true"/>
+<include file="logger/object_grants/object_grants_as_grantor.logger.table.logger_logs.sql" relativeToChangelogFile="true"/>
+<include file="logger/object_grants/object_grants_as_grantor.logger.table.logger_logs_apex_items.sql" relativeToChangelogFile="true"/>
+<include file="logger/object_grants/object_grants_as_grantor.logger.table.logger_prefs.sql" relativeToChangelogFile="true"/>
+<include file="logger/object_grants/object_grants_as_grantor.logger.table.logger_prefs_by_client_id.sql" relativeToChangelogFile="true"/>
+<include file="logger/object_grants/object_grants_as_grantor.logger.view.logger_logs_5_min.sql" relativeToChangelogFile="true"/>
+<include file="logger/object_grants/object_grants_as_grantor.logger.view.logger_logs_60_min.sql" relativeToChangelogFile="true"/>
+<include file="logger/object_grants/object_grants_as_grantor.logger.view.logger_logs_terse.sql" relativeToChangelogFile="true"/>
 </databaseChangeLog>
