@@ -1,11 +1,11 @@
 {
   "project" : "ticketnexus",
   "sqlcl" : {
-    "connectionName" : "ticketnexus@ADBDEV_HIGH",
+    "connectionName" : "admin@ADBDEV_HIGH",
     "autoConnect" : false,
     "version" : "25.4.2.0"
   },
-  "schemas" : [ "TICKETNEXUS" ],
+  "schemas" : [ "TICKETNEXUS", "LOGGER" ],
   "lastReleaseVersion" : "0.1",
   "export" : {
     "format" : {

@@ -33,7 +33,7 @@ prompt APPLICATION 100 - Ticket Nexus
 -- Application Export:
 --   Application:     100
 --   Name:            Ticket Nexus
---   Exported By:     TICKETNEXUS
+--   Exported By:     ADMIN
 --   Flashback:       0
 --   Export Type:     Application Export
 --     Pages:                      4
@@ -1383,4 +1383,4 @@ prompt  ...done
 
 
 
--- sqlcl_snapshot {"hash":"da98aff623b4d4db34df589c5ec34157d1f19615","type":"APEX_APPLICATIONS","name":"f100","schemaName":"TICKETNEXUS_WKSP","sxml":""}
+-- sqlcl_snapshot {"hash":"6235ac4822344ffe83a9c36f35ea8db18d3eaeac","type":"APEX_APPLICATIONS","name":"f100","schemaName":"TICKETNEXUS_WKSP","sxml":""}
