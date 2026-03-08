@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+<include file="ticketnexus/tables/tickets_tbl.sql" relativeToChangelogFile="true"/>
+<include file="ticketnexus/triggers/biu_tickets_tbl.sql" relativeToChangelogFile="true"/>
+<include file="ticketnexus/tables/persons_tbl.sql" relativeToChangelogFile="true"/>
+<include file="ticketnexus/tables/ticket_impacts_tbl.sql" relativeToChangelogFile="true"/>
+<include file="ticketnexus/tables/ticket_priorities_tbl.sql" relativeToChangelogFile="true"/>
+<include file="ticketnexus/tables/ticket_states_tbl.sql" relativeToChangelogFile="true"/>
+<include file="ticketnexus/tables/ticket_types_tbl.sql" relativeToChangelogFile="true"/>
+<include file="ticketnexus/tables/ticket_urgencies_tbl.sql" relativeToChangelogFile="true"/>
+<include file="ticketnexus/ref_constraints/tickets_impact_fk.sql" relativeToChangelogFile="true"/>
+<include file="ticketnexus/ref_constraints/tickets_priority_fk.sql" relativeToChangelogFile="true"/>
+<include file="ticketnexus/ref_constraints/tickets_responsible_fk.sql" relativeToChangelogFile="true"/>
+<include file="ticketnexus/ref_constraints/tickets_state_fk.sql" relativeToChangelogFile="true"/>
+<include file="ticketnexus/ref_constraints/tickets_type_fk.sql" relativeToChangelogFile="true"/>
+<include file="ticketnexus/ref_constraints/tickets_urgency_fk.sql" relativeToChangelogFile="true"/>
+</databaseChangeLog>
