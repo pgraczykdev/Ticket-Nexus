@@ -1,5 +1,5 @@
 -- liquibase formatted sql
--- changeset TICKETNEXUS:1772992586162 stripComments:false  logicalFilePath:ords/ticketnexus/ords.sql
+-- changeset TICKETNEXUS:1772993845554 stripComments:false  logicalFilePath:ords/ticketnexus/ords.sql
 -- sqlcl_snapshot {"hash":"cb4abe0ed5fe92b8bfac8eea507da3fcb0e80809","type":"ORDS_SCHEMA","name":"ords","schemaName":"TICKETNEXUS","sxml":""}
 --
         
